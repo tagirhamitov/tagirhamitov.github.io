@@ -10,6 +10,7 @@ pages:
     - npm install -g @angular/cli@11.2.6
     - npm install
     - ng build
+    - mkdir public
     - mv dist/personal-site/* public/
   artifacts:
     paths:
