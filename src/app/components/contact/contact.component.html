@@ -1,0 +1,6 @@
+<h1 class="font-weight-light mb-5">My contacts</h1>
+<p class="lead" *ngFor="let social of socials">
+  {{social.name}}
+  <a href="{{social.prefix}}/{{social.username}}">link</a>
+</p>
+<div style="height: 400px"></div>
